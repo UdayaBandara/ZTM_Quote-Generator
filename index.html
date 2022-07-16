@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=Udaya.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="quote-container" id="quote-container">
+        <!-- Quote -->
+        <section class="quote-text">
+            <i class="fa-solid fa-quote-left"></i>
+            <span id="quote"></span> <!-- What you are is what you have been. What you'll be is what you do now. -->
+        </section>
+        <!-- Author -->
+        <article class="quote-author">
+            <span id="author"></span> <!-- Buddha -->
+        </article>
+        <!-- Buttons -->
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="Tweet This!">
+                <i class="fa-brands fa-twitter"></i>
+            </button>
+            <button id="new-quote">New Quote</button>
+        </div>
+    </main>
+    <!-- Loader -->
+    <div class="loader" id="loader"></div>
+    <!-- Script -->
+    <script src="quotes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
